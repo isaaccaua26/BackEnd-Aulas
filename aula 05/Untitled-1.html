@@ -1,0 +1,21 @@
+<head>
+<body>
+Primeira nota <input id="nota1" type="number"><br /><br />
+Segunda nota <input id="nota2" type="number"><br /><br />
+<button onclick="media();">Calcular Media</button>
+<script type="text/javascript">
+function media() {
+var notal = parseFloat(document.getElementById("nota1").value);
+var nota2 = parsefloat(document.getElementById("nota2").value);
+var media = (nota1 + nota2) / 2;
+
+if (media >= 5){
+          if (media==10){ alert("Uaul Aprovado com Louvor! Media:"+ media);
+          } else { alert("Parabéns, aprovado! Media: " + media);
+          }
+}else { alert("Reprovado! Media:" + media);
+ }
+}
+</script>
+ </body>
+</html>                 
